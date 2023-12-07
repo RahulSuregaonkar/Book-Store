@@ -5,7 +5,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 SECRET_KEY = '3xk*)i0x#k$btl=(6q)te!19=mp6d)lm1+zl#ts4ewxi3-!vm_'
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['yourdomain.com', '127.0.0.1', 'localhost']
 
@@ -66,12 +66,12 @@ TEMPLATES = [
 WSGI_APPLICATION = 'core.wsgi.application'
 
 DATABASES = {
-    'default':{
-        'ENGINE':'django.db.backends.postgresql_psycopg2',
-        'NAME':'django-db',
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'djangodemodb',
         'USER': 'postgres',
         'PASSWORD': 'rahulosho',
-        'HOST': 'localhost',
+        'HOST': 'django-db.cntvudebppw2.eu-north-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
