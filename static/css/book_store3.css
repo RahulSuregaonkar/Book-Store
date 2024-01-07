@@ -857,6 +857,7 @@ section {
     .header .header-1 {
         box-shadow: var(--box-shadow);
         position: relative;
+        padding-bottom: 55px;
     }
 
     .header .header-1 .search-form {
@@ -864,7 +865,9 @@ section {
         top: -65%;
         right: 2rem;
         width: 90%;
+        height: auto;
         box-shadow: var(--box-shadow);
+        
     }
 
     .header .header-1 .search-form.active {

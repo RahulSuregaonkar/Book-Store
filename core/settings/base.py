@@ -5,7 +5,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 SECRET_KEY = '3xk*)i0x#k$btl=(6q)te!19=mp6d)lm1+zl#ts4ewxi3-!vm_'
 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['yourdomain.com', '127.0.0.1', 'localhost']
 
@@ -68,10 +68,10 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgres',
-        'USER': 'dbmasteruser',
-        'PASSWORD': '78vv9FFsX(X2O#u1o41{s%%j$dl5$L)Y',
-        'HOST': 'ls-eb2e34f79cb53bb833148d651878ac313b7a563e.cvft8zpzz01n.ap-south-1.rds.amazonaws.com',
+        'NAME': 'django-db',
+        'USER': 'postgres',
+        'PASSWORD': 'rahulosho',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
