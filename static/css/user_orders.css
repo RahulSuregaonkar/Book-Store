@@ -1,0 +1,226 @@
+@media (max-width: 768px) {
+    .img-fluid {
+      max-width: 80%;
+      align-self: center;
+      padding: 15px;
+    }
+  }
+  
+  .track{position: relative;background-color: #ddd;height: 7px;display: -webkit-box;display: -ms-flexbox;display: flex;margin-bottom: 60px;margin-top: 50px}
+  .track .step{-webkit-box-flex: 1;-ms-flex-positive: 1;flex-grow: 1;width: 25%;margin-top: -18px;text-align: center;position: relative}
+  .track .step.active:before{background: green}
+  .track .step::before{height: 7px;position: absolute;content: "";width: 100%;left: 0;top: 18px}
+  .track .step.active .icon{background: green;color: #fff}
+  .track .icon{display: inline-block;width: 40px;height: 40px;line-height: 40px;position: relative;border-radius: 100%;background: #ddd}
+  .track .step.active .text{font-weight: 400;color: #000}.track .text{display: block;margin-top: 7px}
+  .itemside{position: relative;display: -webkit-box;display: -ms-flexbox;display: flex;width: 100%}
+  .itemside .aside{position: relative;-ms-flex-negative: 0;flex-shrink: 0}.img-sm{width: 80px;height: 80px;padding: 7px}ul.row, ul.row-sm{list-style: none;padding: 0}.itemside 
+  .info{padding-left: 15px;padding-right: 7px}
+  .itemside 
+  .title{display: block;margin-bottom: 5px;color: #212529}p{margin-top: 0;margin-bottom: 1rem}
+  .btn-warning{color: #ffffff;background-color: #ee5435;border-color: #ee5435;border-radius: 1px}
+  .btn-warning:hover{color: #ffffff;background-color: #ff2b00;border-color: #ff2b00;border-radius: 1px}
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .alert-warning {
+    margin-top: 20px;
+  }
+  
+  /* Button styling */
+  .btn-light {
+    background-color: #f0f0f0;
+    color: #000;
+    border: 1px solid #ccc;
+  }
+  
+  .btn-light:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Tracking steps */
+  .track {
+    position: relative;
+    background-color: #ddd;
+    height: 7px;
+    display: flex;
+    margin-bottom: 60px;
+    margin-top: 50px;
+  }
+  
+  .track .step {
+    flex-grow: 1;
+    width: 25%;
+    margin-top: -18px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .track .step.active:before {
+    background: green;
+  }
+  
+  .track .step::before {
+    height: 7px;
+    position: absolute;
+    content: "";
+    width: 100%;
+    left: 0;
+    top: 18px;
+  }
+  
+  .track .step.active .icon {
+    background: green;
+    color: #fff;
+  }
+  
+
+  .track .icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    border-radius: 100%;
+    background: #ddd;
+  }
+  
+  .track .step.active .text {
+    font-weight: 400;
+    color: #000;
+  }
+  
+  .track .text {
+    display: block;
+    margin-top: 7px;
+    
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes slideInUp {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .slideInUp {
+    animation: slideInUp 0.8s ease-out;
+  }
+  .card {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    font-size:1.5rem;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-text {
+    margin-bottom: 5px;
+  }
+  @media only screen and (max-width: 767px) {
+
+    .container {
+      padding: 10px;
+    }
+  
+    .track {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  
+    .track .step {
+      width: 50%;
+    }
+  
+    .track .text {
+      font-size: 12px;
+    }
+  
+    .card-header {
+      font-size: 1.2rem;
+    }
+  
+    .btn-light,
+    .btn-primary {
+      width: 100%;
+    }
+  
+    .btn-primary {
+      margin-top: 10px;
+    }
+    .img-fluid {
+      max-width: 100%;
+      padding: 15px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    /* Other existing styles... */
+    .h6 {
+      font-size:4px;
+    }
+    .col-md-13.justify-content-center {
+      margin-bottom: 100px; /* Adjust the margin as needed */
+    }
+  
+    .btn-light a {
+      display: block;
+      padding: 10px; /* Add padding for better touch interaction */
+    }
+  
+    .col-md-13.justify-content-center p {
+      margin-top: 10px; /* Add margin to the top of the paragraph */
+      margin-bottom: 10px; /* Add margin to the bottom of the paragraph */
+    }
+    .col-md-7.col-lg-8.p-0 {
+      padding: 5px; /* Adjust the padding as needed */
+    }
+    .card{
+      padding: 2px;
+    }
+    .pe-3 {
+      font-size: 10px; /* Adjust the font size as needed */
+    }
+  }

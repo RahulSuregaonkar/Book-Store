@@ -1,0 +1,77 @@
+.h2 {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  /* Paragraph styles */
+  p {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  /* Divider styles */
+  hr {
+    border: 1px solid #ccc;
+    margin-top: 10px;
+  }
+  
+  /* Card styles */
+  .card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  /* Button styles */
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  /* Primary button styles */
+  .btn-success {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  /* Background animation styles */
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Apply background animation to the body */
+  body {
+    animation: gradientAnimation 5s ease infinite;
+  }
+
+  .btn:hover {
+    transform: translateY(-2px); /* Move button 2px up on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
+  }
+  
+  /* Card hover styles */
+  .card:hover {
+    transform: translateY(-5px); /* Move card 5px up on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+  }
+  @media (max-width:768px) {
+    .container {
+      padding: 15px;
+      width: 90%;
+    }
+  }

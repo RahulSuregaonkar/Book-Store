@@ -1,9 +1,13 @@
 {% extends "../sub_base.html" %}
+{% load static %}
 {% block title %}Edit Addresses{% endblock %}
 
 
 
 {% block sub_content %}
+<head>
+  <link rel="stylesheet"  href="{% static '/css/address1.css' %}">
+</head>
 <h1 class="h2">Your Addresses</h1>
 <div>Manage your <b>addresses</b> and delivery preferences</div>
 <hr />
@@ -59,62 +63,5 @@
   </div>
 </div>
 
-<style>
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  /* Card styling */
-  .card {
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    transition: transform 0.3s;
-  }
-  
-  .card:hover {
-    transform: scale(1.05);
-  }
-  
-  .card-header {
-    background-color: #f9f9f9;
-    font-weight: bold;
-  }
-  
-  .card-body {
-    padding: 15px;
-  }
-  
-  .card-body p {
-    margin: 0;
-  }
-  
-  /* Add Address card styling */
-  .card-add-address {
-    border-style: dashed;
-    border-width: 2px;
-    border-color: #ccc;
-  }
-  
-  /* Add Address icon styling */
-  .add-address-icon {
-    color: #ccc;
-  }
-  
-  /* Animations */
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
-  .fadeIn {
-    animation: fadeIn 1s ease-in-out;
-  }
-</style>
 
 {% endblock %}

@@ -1,5 +1,8 @@
 {% extends "base.html" %} {% load static %} {% block title %}Dashboard{%endblock %} {% block content %}
 
+<head>
+  <link rel="stylesheet"  href="{% static '/css/dashboard.css' %}">
+</head>
 <div  class= "container">
   <div class="col-12">
     <h1 class="h2">Your Account</h1>
@@ -96,38 +99,7 @@
         </div>
       </a>
     </div>
-    <style>
-      .card {
-        border: none;
-        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-        cursor: pointer;
-        background-color: #fff;
-        border-radius: 10px;
-        padding: 20px;
-      }
 
-      
-      .card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-      }
-    
-      .card-body h1 {
-        font-size: 1.6rem;
-        margin-bottom: 10px;
-      }
-    
-      .card-body p {
-        font-size: 1.5rem;
-        color: #6c757d;
-      }
-    
-      .card img {
-        width: 30px;
-        height: 30px;
-        margin-top: 5px;
-      }
-    </style>
     
   </div>
 </div>

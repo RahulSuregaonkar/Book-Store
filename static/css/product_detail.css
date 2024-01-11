@@ -1,0 +1,254 @@
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+.rate input {
+    display: none;
+}
+body{
+
+    background-color: #eee;
+}
+
+.card{
+    
+    background-color: #fff;
+    border: none;
+}
+
+.form-color{
+  
+   background-color: #fafafa;
+
+}
+
+.form-control{
+
+    height: 48px;
+    border-radius: 25px;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #35b69f;
+    outline: 0;
+    box-shadow: none;
+    text-indent: 10px;
+}
+
+.c-badge{
+    background-color: #35b69f;
+    color: white;
+    height: 20px;
+    font-size: 11px;
+    width: 92px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.comment-text{
+    font-size: 13px;
+}
+
+.wish{
+
+    color:#35b69f;
+}
+
+
+.user-feed{
+
+        font-size: 14px;
+        margin-top: 12px;
+}
+
+.children form {
+    margin-left: -48px;
+}
+
+.children .children form {
+    margin-left: -48px;
+}
+
+
+.rating {
+    --dir: right;
+    --fill: gold;
+    --fillbg: rgba(100, 100, 100, 0.15);
+    --heart: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 21.328l-1.453-1.313q-2.484-2.25-3.609-3.328t-2.508-2.672-1.898-2.883-0.516-2.648q0-2.297 1.57-3.891t3.914-1.594q2.719 0 4.5 2.109 1.781-2.109 4.5-2.109 2.344 0 3.914 1.594t1.57 3.891q0 1.828-1.219 3.797t-2.648 3.422-4.664 4.359z"/></svg>');
+    --star: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.25l-6.188 3.75 1.641-7.031-5.438-4.734 7.172-0.609 2.813-6.609 2.813 6.609 7.172 0.609-5.438 4.734 1.641 7.031z"/></svg>');
+    --stars: 5;
+    --starsize: 3rem;
+    --symbol: var(--star);
+    --value: 1;
+    --w: calc(var(--stars) * var(--starsize));
+    --x: calc(100% * (var(--value) / var(--stars)));
+    block-size: var(--starsize);
+    inline-size: var(--w);
+    position: relative;
+    padding: 0rem;
+    touch-action: manipulation;
+    -webkit-appearance: none;
+  }
+  [dir="rtl"] .rating {
+    --dir: left;
+  }
+  .rating::-moz-range-track {
+    background: linear-gradient(to var(--dir), var(--fill) 0 var(--x), var(--fillbg) 0 var(--x));
+    block-size: 100%;
+    mask: repeat left center/var(--starsize) var(--symbol);
+  }
+  .rating::-webkit-slider-runnable-track {
+    background: linear-gradient(to var(--dir), var(--fill) 0 var(--x), var(--fillbg) 0 var(--x));
+    block-size: 100%;
+    mask: repeat left center/var(--starsize) var(--symbol);
+    -webkit-mask: repeat left center/var(--starsize) var(--symbol);
+  }
+  .rating::-moz-range-thumb {
+    height: var(--starsize);
+    opacity: 0;
+    width: var(--starsize);
+  }
+  .rating::-webkit-slider-thumb {
+    height: var(--starsize);
+    opacity: 0;
+    width: var(--starsize);
+    -webkit-appearance: none;
+  }
+  .rating, .rating-label {
+    display: block;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+  }
+  .rating-label {
+    margin-block-end: 1rem;
+  }
+  
+  /* NO JS */
+  .rating--nojs::-moz-range-track {
+    background: var(--fillbg);
+  }
+  .rating--nojs::-moz-range-progress {
+    background: var(--fill);
+    block-size: 100%;
+    mask: repeat left center/var(--starsize) var(--star);
+  }
+  .rating--nojs::-webkit-slider-runnable-track {
+    background: var(--fillbg);
+  }
+  .rating--nojs::-webkit-slider-thumb {
+    background-color: var(--fill);
+    box-shadow: calc(0rem - var(--w)) 0 0 var(--w) var(--fill);
+    opacity: 1;
+    width: 1px;
+  }
+  [dir="rtl"] .rating--nojs::-webkit-slider-thumb {
+    box-shadow: var(--w) 0 0 var(--w) var(--fill);
+}
+#description {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    line-height: 1.2em;
+    max-height: 2.4em; /* (1.2em * 2 lines) */
+}
+  
+  #show-more-link {
+    display: none;
+}
+  
+  #description.expanded {
+    max-height: none;
+}
+  
+  #show-more-link.expanded::after {
+    content: "Show Less";
+}
+@media (max-width: 500px) {
+    .wish {
+        font-size: 10px;
+    }
+    .rating-label {
+        font-size: 10px;
+    }
+}
+@media (max-width: 400px) {
+    .wish {
+        font-size: 9px;
+    }
+    .rating-label {
+        font-size: 9px;
+    }
+}
+#productss .p-3 {
+    display: none; /* Initially hide all comment containers */
+}
+
+#load-more-comments,
+#load-less-comments,
+#last-4-comments,
+#first-4-comments {
+    background-color: #007bff; /* Blue background color for the button */
+    color: #fff; /* White text color */
+    border: none; /* Remove button border */
+    padding: 10px 15px; /* Add padding to the button */
+    cursor: pointer; /* Add pointer cursor on hover */
+    border-radius: 5px; /* Add border radius for rounded button corners */
+    margin-top: 10px; /* Add margin at the top of the buttons */
+    margin-right: 10px; /* Add margin at the right of the buttons */
+}
+
+#load-more-comments:hover,
+#load-less-comments:hover,
+#last-4-comments:hover,
+#first-4-comments:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+/* Add this to your existing stylesheet or create a new one */
+.star-icon4-half-o::before {
+    content: '\f089'; /* Unicode character for the half-star in Font Awesome */
+    color: var(--green); /* Change the color to your desired color */
+    position: relative;
+    display: inline-block;
+    width: 1em; /* Adjust the width as needed */
+    font-family: 'Font Awesome\ 5 Free'; /* Adjust the font family if needed */
+}
+
+/* If you want to adjust the size of the icon, you can use the following CSS */
+.star-icon4-half-o {
+    font-size: 19px; /* Adjust the font size as needed */
+}

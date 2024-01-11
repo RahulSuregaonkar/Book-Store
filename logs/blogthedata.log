@@ -711,3 +711,880 @@ WARNING 2023-12-29 09:22:11,274 log log.py 241 log_response Not Found: /account/
 WARNING 2023-12-31 12:27:04,462 log log.py 241 log_response Not Found: /favicon.ico
 WARNING 2023-12-31 12:27:10,682 log log.py 241 log_response Not Found: /blog/assets/images/favicon.png
 WARNING 2023-12-31 12:28:25,376 log log.py 241 log_response Not Found: /blog/new/assets/images/favicon.png
+WARNING 2024-01-07 09:58:56,162 log log.py 241 log_response Not Found: /favicon.ico
+WARNING 2024-01-07 09:59:03,469 log log.py 241 log_response Not Found: /search/media/images/icons8-search-80.png
+WARNING 2024-01-07 10:09:39,421 log log.py 241 log_response Not Found: /search/media/images/icons8-search-80.png
+WARNING 2024-01-07 10:16:07,007 base base.py 146 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 10:16:07,049 log log.py 241 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 10:16:07,926 base base.py 146 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 10:16:07,967 log log.py 241 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 10:16:08,837 base base.py 146 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 10:16:08,879 log log.py 241 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 10:16:10,537 base base.py 146 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 10:16:10,577 log log.py 241 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 10:16:11,617 base base.py 146 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 10:16:11,649 log log.py 241 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 10:16:15,793 base base.py 146 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 10:16:15,834 log log.py 241 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 10:16:16,600 base base.py 146 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 10:16:16,641 log log.py 241 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 10:16:18,623 base base.py 146 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 10:16:18,665 log log.py 241 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 10:16:19,391 base base.py 146 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 10:16:19,545 log log.py 241 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 11:45:55,715 base base.py 146 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 11:45:55,776 log log.py 241 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 11:45:56,754 base base.py 146 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 11:45:56,811 log log.py 241 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 11:45:57,572 base base.py 146 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 11:45:57,657 log log.py 241 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 11:46:05,574 base base.py 146 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 11:46:05,650 log log.py 241 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 11:46:07,408 base base.py 146 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 11:46:07,483 log log.py 241 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 11:46:12,576 base base.py 146 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 11:46:12,648 log log.py 241 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 11:48:54,018 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 11:48:54,109 log log.py 224 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 11:48:54,925 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 11:48:55,003 log log.py 224 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 11:48:56,404 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 11:48:56,475 log log.py 224 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 11:49:26,553 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 11:49:26,609 log log.py 224 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 11:51:10,762 log log.py 224 log_response Not Found: /product_page
+WARNING 2024-01-07 11:52:14,804 log log.py 224 log_response Not Found: /product_page/media/images/icons8-search-80.png
+WARNING 2024-01-07 11:52:16,995 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 11:52:17,067 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 11:52:18,149 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 11:52:18,213 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 11:52:18,952 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 11:52:19,035 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 11:52:19,662 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 11:52:19,728 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 11:52:21,162 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 11:52:21,250 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 11:52:23,764 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 11:52:23,847 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 11:53:19,289 log log.py 224 log_response Not Found: /product_page/
+WARNING 2024-01-07 11:56:56,826 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 11:56:56,890 log log.py 224 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 11:56:57,777 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 11:56:57,842 log log.py 224 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 11:56:58,509 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 11:56:58,579 log log.py 224 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 11:56:59,210 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 11:56:59,273 log log.py 224 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 11:57:09,801 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 11:57:09,862 log log.py 224 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 11:57:10,559 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 11:57:10,623 log log.py 224 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 12:20:20,031 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 12:20:20,101 log log.py 224 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 12:20:20,796 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 12:20:20,877 log log.py 224 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 12:21:03,954 log log.py 224 log_response Not Found: /product_page
+WARNING 2024-01-07 12:21:06,627 log log.py 224 log_response Not Found: /product_page/media/images/icons8-search-80.png
+WARNING 2024-01-07 12:21:09,947 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 12:21:10,014 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 12:21:10,902 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 12:21:10,965 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 12:21:12,343 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 12:21:12,412 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 12:21:14,525 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 12:21:14,582 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 12:21:15,141 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 12:21:15,217 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 12:21:17,788 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 12:21:17,841 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 12:21:18,343 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 12:21:18,415 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 12:21:21,744 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 12:21:21,744 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 12:21:21,839 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 12:21:21,855 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 12:21:50,599 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page
+WARNING 2024-01-07 12:21:50,653 log log.py 224 log_response Method Not Allowed: /product_page
+WARNING 2024-01-07 12:22:41,093 log log.py 224 log_response Not Found: /product_page/media/images/icons8-search-80.png
+WARNING 2024-01-07 12:22:42,997 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 12:22:43,077 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 12:25:46,054 log log.py 224 log_response Not Found: /product_page/media/images/icons8-search-80.png
+WARNING 2024-01-07 12:25:49,292 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 12:25:49,373 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 12:25:50,056 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 12:25:50,152 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 12:25:50,834 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 12:25:50,912 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 12:25:51,687 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 12:25:51,746 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 12:28:57,964 log log.py 224 log_response Not Found: /product_page/media/images/icons8-search-80.png
+WARNING 2024-01-07 12:29:00,588 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 12:29:00,656 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 12:30:42,588 log log.py 224 log_response Not Found: /product_page/media/images/icons8-search-80.png
+WARNING 2024-01-07 12:30:44,255 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 12:30:44,319 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 12:31:53,019 log log.py 224 log_response Not Found: /product_page/media/images/icons8-search-80.png
+WARNING 2024-01-07 12:31:55,196 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 12:31:55,264 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 12:31:56,025 base base.py 101 http_method_not_allowed Method Not Allowed (POST): /product_page/
+WARNING 2024-01-07 12:31:56,214 log log.py 224 log_response Method Not Allowed: /product_page/
+WARNING 2024-01-07 12:34:27,108 log log.py 224 log_response Not Found: /product_page/
+WARNING 2024-01-08 11:06:05,545 log log.py 224 log_response Not Found: /account/login/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:06:20,020 log log.py 224 log_response Not Found: /account/profile/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:06:58,944 log log.py 224 log_response Not Found: /account/dashboard/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:07:01,005 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:07:35,106 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:08:03,864 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:09:25,267 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:09:27,054 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:10:43,949 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:11:54,354 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:12:18,831 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:12:50,972 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:13:30,740 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:13:46,195 log log.py 224 log_response Not Found: /account/add_address/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:13:54,136 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:15:21,301 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:15:32,455 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:15:44,550 log log.py 224 log_response Not Found: /account/dashboard/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:17:43,701 log log.py 224 log_response Not Found: /account/dashboard/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:19:18,301 log log.py 224 log_response Not Found: /account/profile/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:20:00,385 log log.py 224 log_response Not Found: /account/dashboard/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:20:02,988 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:20:05,695 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:21:58,533 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:22:12,100 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:22:42,923 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:22:54,135 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:23:15,607 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:23:45,368 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:24:07,710 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:24:33,677 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:24:34,967 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:24:46,709 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:26:57,294 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:27:07,859 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:27:15,414 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:27:22,223 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:27:32,835 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:27:52,292 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:28:29,385 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:29:02,695 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:29:46,950 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:30:06,439 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:31:43,938 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:32:01,730 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:32:22,347 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:34:16,529 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:34:29,276 log log.py 224 log_response Not Found: /account/dashboard/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:34:33,531 log log.py 224 log_response Not Found: /account/profile/edit/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:34:52,645 log log.py 224 log_response Not Found: /account/profile/edit/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:35:06,044 log log.py 224 log_response Not Found: /account/dashboard/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:35:12,408 log log.py 224 log_response Not Found: /account/dashboard/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:35:17,072 log log.py 224 log_response Not Found: /account/orders/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:35:23,712 log log.py 224 log_response Not Found: /account/orders/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:36:37,485 log log.py 224 log_response Not Found: /account/orders/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:36:50,751 log log.py 224 log_response Not Found: /account/dashboard/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:36:53,002 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:36:56,189 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 11:37:57,714 log log.py 224 log_response Not Found: /account/addresses/edit/de614787-017f-4086-a75a-fd8a4d19e842/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:00:55,865 log log.py 224 log_response Not Found: /account/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:01:10,739 log log.py 224 log_response Not Found: /account/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:01:19,749 log log.py 224 log_response Not Found: /account/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:02:00,553 log log.py 224 log_response Not Found: /account/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:02:15,852 log log.py 224 log_response Not Found: /account/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:03:30,439 log log.py 224 log_response Not Found: /account/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:03:42,542 log log.py 224 log_response Not Found: /account/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:04:22,533 log log.py 224 log_response Not Found: /account/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:05:04,472 log log.py 224 log_response Not Found: /account/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:05:58,181 log log.py 224 log_response Not Found: /account/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:06:16,144 log log.py 224 log_response Not Found: /account/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:06:32,170 log log.py 224 log_response Not Found: /account/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:08:26,663 log log.py 224 log_response Not Found: /account/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:08:40,686 log log.py 224 log_response Not Found: /account/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:09:00,188 log log.py 224 log_response Not Found: /account/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:09:12,144 log log.py 224 log_response Not Found: /account/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:09:29,637 log log.py 224 log_response Not Found: /account/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:09:47,781 log log.py 224 log_response Not Found: /account/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:12:41,983 log log.py 224 log_response Not Found: /account/login/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:12:44,570 log log.py 224 log_response Not Found: /account/password_reset/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:12:52,247 log log.py 224 log_response Not Found: /account/password_reset/password_reset_email_confirm/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:13:08,740 log log.py 224 log_response Not Found: /account/password_reset_confirm/MQ/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:13:32,330 log log.py 224 log_response Not Found: /account/password_reset_confirm/MQ/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:13:36,993 log log.py 224 log_response Not Found: /account/register/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:13:43,947 log log.py 224 log_response Not Found: /account/register/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:16:09,033 log log.py 224 log_response Not Found: /account/login/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:16:22,506 log log.py 224 log_response Not Found: /account/register/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:17:52,561 log log.py 224 log_response Not Found: /account/register/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:17:55,975 log log.py 224 log_response Not Found: /account/register/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:18:44,875 log log.py 224 log_response Not Found: /account/register/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:19:03,603 log log.py 224 log_response Not Found: /account/register/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:20:40,368 log log.py 224 log_response Not Found: /account/login/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:21:14,306 log log.py 224 log_response Not Found: /account/login/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:22:25,922 log log.py 224 log_response Not Found: /account/login/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:22:32,612 log log.py 224 log_response Not Found: /basket/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:22:46,286 log log.py 224 log_response Not Found: /basket/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:23:21,799 log log.py 224 log_response Not Found: /basket/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:23:29,845 log log.py 224 log_response Not Found: /basket/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:23:35,050 log log.py 224 log_response Not Found: /basket/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:23:40,401 log log.py 224 log_response Not Found: /basket/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:38:08,808 log log.py 224 log_response Not Found: /checkout/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:39:48,804 log log.py 224 log_response Not Found: /basket/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:39:50,194 log log.py 224 log_response Not Found: /checkout/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:41:39,706 log log.py 224 log_response Not Found: /checkout/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:42:23,479 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:43:32,613 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:43:50,014 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:43:51,320 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:44:09,611 log log.py 224 log_response Not Found: /checkout/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:44:38,441 log log.py 224 log_response Not Found: /checkout/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:44:52,063 log log.py 224 log_response Not Found: /checkout/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:45:03,436 log log.py 224 log_response Not Found: /checkout/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:45:28,547 log log.py 224 log_response Not Found: /checkout/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:45:34,740 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:45:58,597 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:46:07,756 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:46:28,592 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:47:39,365 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:52:58,418 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:53:25,901 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:58:24,697 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:58:30,532 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-08 12:59:52,163 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:01:16,936 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:01:40,208 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:03:01,607 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:04:43,591 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:05:04,122 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:05:53,639 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:06:17,538 log log.py 224 log_response Not Found: /account/dashboard/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:06:25,827 log log.py 224 log_response Not Found: /basket/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:06:27,381 log log.py 224 log_response Not Found: /checkout/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:06:30,712 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:06:37,201 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:07:26,509 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:08:41,723 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:08:55,384 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:09:39,270 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:10:25,295 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:10:39,899 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:26:01,420 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:26:29,340 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:26:58,435 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:27:15,958 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:27:41,360 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:28:02,414 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:30:47,556 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:35:37,449 log log.py 224 log_response Not Found: /account/orders/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:43:39,989 log log.py 224 log_response Not Found: /sellbook/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:43:44,259 log log.py 224 log_response Not Found: /account/orders/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:44:22,895 log log.py 224 log_response Not Found: /account/orders/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:52:48,800 log log.py 224 log_response Not Found: /account/orders/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:53:03,529 log log.py 224 log_response Not Found: /account/orders/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:53:40,502 log log.py 224 log_response Not Found: /account/orders/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:53:57,879 log log.py 224 log_response Not Found: /account/orders/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:54:08,358 log log.py 224 log_response Not Found: /account/orders/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:54:18,392 log log.py 224 log_response Not Found: /account/orders/media/images/icons8-search-80.png
+WARNING 2024-01-08 13:54:36,290 log log.py 224 log_response Not Found: /account/orders/media/images/icons8-search-80.png
+WARNING 2024-01-11 20:17:53,925 log log.py 224 log_response Not Found: /favicon.ico
+WARNING 2024-01-11 20:18:01,437 log log.py 224 log_response Not Found: /blog/assets/images/favicon.png
+ERROR 2024-01-11 20:20:50,947 log log.py 224 log_response Internal Server Error: /account/addresses/
+Traceback (most recent call last):
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\account\views.py", line 385, in view_address
+    return render(request, "account/dashboard/addresses.html", {"addresses": addresses})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-01-11 20:21:08,282 log log.py 224 log_response Internal Server Error: /account/addresses/
+Traceback (most recent call last):
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\account\views.py", line 385, in view_address
+    return render(request, "account/dashboard/addresses.html", {"addresses": addresses})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-01-11 20:21:09,363 log log.py 224 log_response Internal Server Error: /account/addresses/
+Traceback (most recent call last):
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\account\views.py", line 385, in view_address
+    return render(request, "account/dashboard/addresses.html", {"addresses": addresses})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-01-11 20:21:10,504 log log.py 224 log_response Internal Server Error: /account/addresses/
+Traceback (most recent call last):
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\account\views.py", line 385, in view_address
+    return render(request, "account/dashboard/addresses.html", {"addresses": addresses})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-01-11 20:21:11,438 log log.py 224 log_response Internal Server Error: /account/addresses/
+Traceback (most recent call last):
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\account\views.py", line 385, in view_address
+    return render(request, "account/dashboard/addresses.html", {"addresses": addresses})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-01-11 20:22:07,257 log log.py 224 log_response Internal Server Error: /account/addresses/
+Traceback (most recent call last):
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\account\views.py", line 385, in view_address
+    return render(request, "account/dashboard/addresses.html", {"addresses": addresses})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-01-11 20:22:08,198 log log.py 224 log_response Internal Server Error: /account/addresses/
+Traceback (most recent call last):
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\account\views.py", line 385, in view_address
+    return render(request, "account/dashboard/addresses.html", {"addresses": addresses})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-01-11 20:22:29,457 log log.py 224 log_response Internal Server Error: /account/addresses/
+Traceback (most recent call last):
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\account\views.py", line 385, in view_address
+    return render(request, "account/dashboard/addresses.html", {"addresses": addresses})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'static'. Did you forget to register or load this tag?
+WARNING 2024-01-11 20:22:56,135 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-11 20:23:01,329 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-11 20:24:14,100 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-11 20:24:17,154 log log.py 224 log_response Not Found: /account/dashboard/media/images/icons8-search-80.png
+WARNING 2024-01-11 20:26:05,260 log log.py 224 log_response Not Found: /account/dashboard/media/images/icons8-search-80.png
+WARNING 2024-01-11 20:26:09,494 log log.py 224 log_response Not Found: /account/profile/media/images/icons8-search-80.png
+WARNING 2024-01-11 20:26:12,883 log log.py 224 log_response Not Found: /account/profile/media/images/icons8-search-80.png
+WARNING 2024-01-11 20:27:11,270 log log.py 224 log_response Not Found: /account/profile/media/images/icons8-search-80.png
+WARNING 2024-01-11 20:27:18,816 log log.py 224 log_response Not Found: /account/orders/media/images/icons8-search-80.png
+WARNING 2024-01-11 20:36:55,660 log log.py 224 log_response Not Found: /account/orders/media/images/icons8-search-80.png
+WARNING 2024-01-11 20:37:00,108 log log.py 224 log_response Not Found: /account/orders/media/images/icons8-search-80.png
+WARNING 2024-01-11 20:38:41,594 log log.py 224 log_response Not Found: /account/orders/media/images/icons8-search-80.png
+WARNING 2024-01-11 20:40:15,359 log log.py 224 log_response Not Found: /account/orders/media/images/icons8-search-80.png
+WARNING 2024-01-11 20:40:25,533 log log.py 224 log_response Not Found: /basket/media/images/icons8-search-80.png
+WARNING 2024-01-11 20:40:31,067 log log.py 224 log_response Not Found: /checkout/media/images/icons8-search-80.png
+WARNING 2024-01-11 20:40:36,367 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:09:04,512 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:09:10,003 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:09:47,820 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:09:54,169 log log.py 224 log_response Not Found: /basket/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:09:57,838 log log.py 224 log_response Not Found: /checkout/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:09:59,672 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:10:04,386 log log.py 224 log_response Not Found: /checkout/delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:10:09,064 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:11:19,817 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:12:39,470 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:12:42,188 log log.py 224 log_response Not Found: /checkout/delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:12:52,967 log log.py 224 log_response Not Found: /account/addresses/edit/30d1f10f-0113-4b1b-ace8-1847512a92f1/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:12:55,982 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:12:58,207 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:12:59,976 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:13:01,264 log log.py 224 log_response Not Found: /basket/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:13:03,480 log log.py 224 log_response Not Found: /checkout/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:13:05,389 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:13:07,534 log log.py 224 log_response Not Found: /account/add_address/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:13:17,422 log log.py 224 log_response Not Found: /account/add_address/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:13:21,115 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:13:24,649 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:13:27,734 log log.py 224 log_response Not Found: /account/addresses/edit/3de15110-78ac-435f-b397-37935909e23c/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:13:29,965 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:13:32,451 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:13:34,040 log log.py 224 log_response Not Found: /account/add_address/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:13:38,186 log log.py 224 log_response Not Found: /account/addresses/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:13:40,869 log log.py 224 log_response Not Found: /basket/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:13:42,260 log log.py 224 log_response Not Found: /checkout/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:13:43,725 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:13:48,186 log log.py 224 log_response Not Found: /checkout/delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:13:53,217 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png

@@ -12,7 +12,6 @@ from django.template.loader import render_to_string
 from django.http import HttpResponse
 import json
 
-
 def search(request):
     data = []  # Initialize data with an empty list or default value
     min_price = Product.objects.aggregate(Min('discount_price'))['discount_price__min']
@@ -239,5 +238,3 @@ def addcomment(request):
                 user_name = request.user.name
                 result = comment_form.cleaned_data.get('content')
                 return JsonResponse({'result': result, 'user_name': user_name})
-
-
