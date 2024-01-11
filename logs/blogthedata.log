@@ -1588,3 +1588,4 @@ WARNING 2024-01-11 21:13:42,260 log log.py 224 log_response Not Found: /checkout
 WARNING 2024-01-11 21:13:43,725 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
 WARNING 2024-01-11 21:13:48,186 log log.py 224 log_response Not Found: /checkout/delivery_address/media/images/icons8-search-80.png
 WARNING 2024-01-11 21:13:53,217 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-11 21:15:35,021 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
