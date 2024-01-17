@@ -184,6 +184,29 @@ To enable Stripe payment functionality in your Django project, follow these step
     'STRIPE_ENDPOINT_SECRET': 'your_stripe_endpoint_secret',
    }
 
+# Django Application Deployment Guide
+## Overview
+
+This guide provides step-by-step instructions for deploying your Django application using Nginx as the web server and Gunicorn as the application server. This deployment setup ensures a robust and scalable configuration for hosting your Django project.
+## Prerequisites
+
+Before proceeding with deployment, ensure the following are installed and configured on your server:
+
+- Python and virtual environment
+- Django
+- Gunicorn
+- Nginx
+- Supervisor (optional, for process management)
+
+## Deployment Steps
+
+### 1. Configure Django Settings
+
+Update your Django project's settings for production. In `settings.py`:
+DEBUG = False
+
+ALLOWED_HOSTS = ['your_domain.com']
+
 
 # Testing
 
@@ -199,6 +222,7 @@ To run unit tests, use the following command:
 
 ```bash
 python manage.py test
+
 
 
 
