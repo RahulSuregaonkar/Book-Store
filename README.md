@@ -173,7 +173,9 @@ To run unit tests, use the following command:
 python manage.py test
 
 
-## Stripe Payment Integration
+# Stripe Payment Integration
+
+## Setting Up Stripe Payment in Your Django Project
 
 To enable Stripe payment functionality in your Django project, follow these steps:
 
@@ -194,6 +196,8 @@ To enable Stripe payment functionality in your Django project, follow these step
        'PUBLISHABLE_KEY': 'your_publishable_key',
        'SECRET_KEY': 'your_secret_key',
        'STRIPE_ENDPOINT_SECRET': 'your_stripe_endpoint_secret',
+   }
+    'STRIPE_ENDPOINT_SECRET': 'your_stripe_endpoint_secret',
    }
 
 
