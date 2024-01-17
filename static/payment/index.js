@@ -1,7 +1,7 @@
 //'use strict';
 
 
-var stripe = Stripe('pk_test_51Ngp9lSD595QLxWls3dAxsuul8xWz2zKkV9dgytFe8gqspPVnr4bt7KPQTFdb4BlAcXquGrCqGf32AbvX4jcp27d00iX5JArue');
+var stripe = Stripe('Your_publishable_key');
 
 
 const appearance = { /* appearance */ };

@@ -108,7 +108,7 @@ def payment_selection(request):
     total = int(total)
     print(total)
 
-    stripe.api_key = 'sk_test_51Ngp9lSD595QLxWl8MBGSBLsRICe2ZTg1uBbSKj84QL317bEuFaLy2wWzWyti3Nykdmyieqvgd5COWFk4HsyYUAD0088IBTohA'
+    stripe.api_key = 'Your_Secret_key'
     
     intent = stripe.PaymentIntent.create(
         amount=total,
