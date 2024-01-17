@@ -1589,3 +1589,41 @@ WARNING 2024-01-11 21:13:43,725 log log.py 224 log_response Not Found: /checkout
 WARNING 2024-01-11 21:13:48,186 log log.py 224 log_response Not Found: /checkout/delivery_address/media/images/icons8-search-80.png
 WARNING 2024-01-11 21:13:53,217 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
 WARNING 2024-01-11 21:15:35,021 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-12 21:51:45,970 log log.py 224 log_response Not Found: /favicon.ico
+WARNING 2024-01-12 21:51:47,743 log log.py 224 log_response Not Found: /basket/media/images/icons8-search-80.png
+WARNING 2024-01-12 21:51:50,859 log log.py 224 log_response Not Found: /checkout/media/images/icons8-search-80.png
+WARNING 2024-01-12 21:51:53,495 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-12 21:51:56,254 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+ERROR 2024-01-12 21:52:21,314 log log.py 224 log_response Internal Server Error: /orders/add/
+Traceback (most recent call last):
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\venv\Lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronis\Desktop\new linux folder\backup-django\orders\views.py", line 46, in add
+    order_details_message = f"Order #{order_id} successfully placed for {full_name1}. Total amount paid: ${baskettotal}\n\n{product_details}"
+                                      ^^^^^^^^
+UnboundLocalError: cannot access local variable 'order_id' where it is not associated with a value
+WARNING 2024-01-12 21:52:37,422 log log.py 224 log_response Not Found: /checkout/payment_successful/media/images/icons8-search-80.png
+WARNING 2024-01-12 21:52:43,121 log log.py 224 log_response Not Found: /account/profile/media/images/icons8-search-80.png
+WARNING 2024-01-13 10:34:09,582 log log.py 224 log_response Not Found: /account/profile/media/images/icons8-search-80.png
+WARNING 2024-01-15 12:42:02,895 log log.py 224 log_response Not Found: /favicon.ico
+WARNING 2024-01-15 12:42:14,793 log log.py 224 log_response Not Found: /basket/media/images/icons8-search-80.png
+WARNING 2024-01-15 12:42:17,302 log log.py 224 log_response Not Found: /checkout/media/images/icons8-search-80.png
+WARNING 2024-01-15 12:42:20,237 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-15 12:42:22,275 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-15 12:42:56,031 log log.py 224 log_response Not Found: /checkout/payment_successful/media/images/icons8-search-80.png
+WARNING 2024-01-15 12:42:58,368 log log.py 224 log_response Not Found: /account/orders/media/images/icons8-search-80.png
+WARNING 2024-01-15 12:45:26,793 log log.py 224 log_response Not Found: /basket/media/images/icons8-search-80.png
+WARNING 2024-01-15 12:45:28,936 log log.py 224 log_response Not Found: /checkout/media/images/icons8-search-80.png
+WARNING 2024-01-15 12:45:41,032 log log.py 224 log_response Not Found: /basket/media/images/icons8-search-80.png
+WARNING 2024-01-15 12:46:02,873 log log.py 224 log_response Not Found: /basket/media/images/icons8-search-80.png
+WARNING 2024-01-15 12:46:03,836 log log.py 224 log_response Not Found: /basket/media/images/icons8-search-80.png
+WARNING 2024-01-15 12:46:27,137 log log.py 224 log_response Not Found: /checkout/media/images/icons8-search-80.png
+WARNING 2024-01-15 12:46:29,960 log log.py 224 log_response Not Found: /checkout/set_delivery_address/media/images/icons8-search-80.png
+WARNING 2024-01-15 12:46:31,332 log log.py 224 log_response Not Found: /checkout/payment_selection/media/images/icons8-search-80.png
+WARNING 2024-01-15 12:47:05,877 log log.py 224 log_response Not Found: /checkout/payment_successful/media/images/icons8-search-80.png
+WARNING 2024-01-15 12:47:08,444 log log.py 224 log_response Not Found: /account/orders/media/images/icons8-search-80.png
+WARNING 2024-01-16 20:11:24,192 log log.py 224 log_response Not Found: /favicon.ico
