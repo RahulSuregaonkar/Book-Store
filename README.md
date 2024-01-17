@@ -157,22 +157,6 @@ This Bookstore Web Application aspires to provide a seamless and enriching exper
 - PostgreSQL documentation: [https://www.postgresql.org/docs/](https://www.postgresql.org/docs/)
 
 
-# Testing
-
-## Unit Tests and PyTest
-
-The Bookstore Web Application has undergone a rigorous testing process to ensure reliability, functionality, and code quality. The testing strategy includes both unit tests and PyTest to cover various aspects of the application.
-
-### Unit Tests
-
-Unit tests have been implemented to validate the functionality of individual components or units within the application. These tests focus on ensuring that each part of the codebase performs as intended in isolation, adhering to the principles of modularity and encapsulation.
-
-To run unit tests, use the following command:
-
-```bash
-python manage.py test
-
-
 # Stripe Payment Integration
 
 ## Setting Up Stripe Payment in Your Django Project
@@ -199,6 +183,23 @@ To enable Stripe payment functionality in your Django project, follow these step
    }
     'STRIPE_ENDPOINT_SECRET': 'your_stripe_endpoint_secret',
    }
+
+
+# Testing
+
+## Unit Tests and PyTest
+
+The Bookstore Web Application has undergone a rigorous testing process to ensure reliability, functionality, and code quality. The testing strategy includes both unit tests and PyTest to cover various aspects of the application.
+
+### Unit Tests
+
+Unit tests have been implemented to validate the functionality of individual components or units within the application. These tests focus on ensuring that each part of the codebase performs as intended in isolation, adhering to the principles of modularity and encapsulation.
+
+To run unit tests, use the following command:
+
+```bash
+python manage.py test
+
 
 
 
