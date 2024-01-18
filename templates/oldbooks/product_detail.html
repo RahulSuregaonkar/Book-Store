@@ -10,7 +10,7 @@ Product detail
 {% block content %}
 
 <head>
-    <link rel="stylesheet" type="text/css" href="{% static '/css/style1.css' %}"> 
+    <link rel="stylesheet" type="text/css" href="{% static '/css/style2.css' %}"> 
 </head>
 <body>
 <section class="py-5">
@@ -74,13 +74,13 @@ Product detail
               <h2 class = "offerp">({{product.discount_percentage}}% OFF)</>
               <span class="text-muted">per book</span>
               <h4>Description by user </h4> 
-              <h4>Quantity: {{ product.quantity }}</h4>
-              
               <h4>{{ product.description }}<h4>
+              <h4>Quantity: {{ product.quantity }}</h4>
 
             </div>
   
             <p id="description">
+              <h4>Book Description</h4> 
               <br>
               {{ product.selling_prod.product.description }}
               
@@ -107,11 +107,18 @@ Product detail
             </div>
   
             </div>
-
-            <h4>contact seller to buy</h4>
-            <h5>{{ product.selling_user.user.name }}</h5>
-            <h5> phone number: {{ product.selling_user.user.mobile }}</h5>
-
+            <br/>
+            <br/>
+            <div class="card">
+              <div class="image-container">
+                  <img src="{{ product.selling_user.user.profile.avatar.url }}" alt="Seller Avatar">
+              </div>
+              <br/>
+              <h4>Contact Seller to Buy</h4>
+              <h5>Name: {{ product.selling_user.user.name }}</h5>
+              <h5>Phone Number: {{ product.selling_user.user.mobile }}</h5>
+              <h5>Email Address: {{ product.selling_user.user.email }}</h5>
+            </div>
             
   
         </main>
@@ -143,6 +150,67 @@ Product detail
     }
 
 </script>
+<style>
+  .card {
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .image-container {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card h4 {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+    margin-top: 15px;
+    margin: 0;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .card h5 {
+    margin: 10px 0;
+    padding: 0 15px;
+  }
+  
+  .card h5:first-child {
+    margin-top: 15px;
+  }
+  
+  .card h5:last-child {
+    margin-bottom: 15px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  @media (max-width: 768px) {
+    .card {
+      max-width: 100%;
+    }
+  }
+</style>
 <style>
     .rate {
         float: left;

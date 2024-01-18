@@ -289,10 +289,9 @@
 
             if (searchTerm.trim() === '') {
                 alert('Please type something to search.');
-                return; // Stop further execution if search term is empty
+                return; 
               }
-            // Perform the search action with the search term (e.g., redirect to a search results page)
-            // Replace this with your actual search functionality
+
             const searchForm = document.querySelector('.search-form');
             searchForm.submit();
         });
@@ -315,25 +314,26 @@
     </script>
     <script>
       document.addEventListener("DOMContentLoaded", function() {
-        // Get the current page URL
+
         var currentPageURL = window.location.href;
-  
-        // URL of the product page
-        var productPageURL = "http://127.0.0.1:8000/product_page";
-        var product_pageUrl = "http://127.0.0.1:8000/product_page#"
-  
-        // Check if the current page is the product page
-        if (currentPageURL !== productPageURL) {
-          // Hide the last link (menu-icon) on pages other than the product page
+    
+
+        var allowedPaths = [
+          "http://127.0.0.1:8000/sellbook/",
+          "http://127.0.0.1:8000/product_page",  
+          "http://127.0.0.1:8000/sellbook/sellbook/",
+        ];
+    
+
+        var showMenuIcon = allowedPaths.some(function(path) {
+          return currentPageURL.startsWith(path);
+        });
+    
+
+        if (showMenuIcon) {
+          document.getElementById("menu-icon").style.display = "flex";
+        } else {
           document.getElementById("menu-icon").style.display = "none";
-        }
-        if (currentPageURL == product_pageUrl) {
-          // Hide the last link (menu-icon) on pages other than the product page
-          document.getElementById("menu-icon").style.display = "flex";
-        }
-        if (currentPageURL == productPageURL) {
-          // Hide the last link (menu-icon) on pages other than the product page
-          document.getElementById("menu-icon").style.display = "flex";
         }
       });
     </script>

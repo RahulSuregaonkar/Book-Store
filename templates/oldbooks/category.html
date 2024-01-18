@@ -2,40 +2,47 @@
 {% load static %}
 {% block title %}Home{% endblock title %}
 {% block content%}
+<head>
+  <link rel="stylesheet"  href="{% static '/css/product_page2.css' %}">
+</head>
 
 <div id = "wrapper">
     
     <div id="filter">
-      <div class="a" style="font-size: 16px" id="filter_head">
-        <strong>FILTERS</strong>
-      </div>
-      
-      <div class="box">
-
-        <label class="container"
-            ><strong><div class="pb-3 h5">{{category.name|title}}</div></strong></label>
-
-  
+      <div >
+        <div class="a" style="font-size: 16px" id="filter_head">
+          <strong>FILTERS</strong>
         </div>
-  
+        
         <div class="box">
-          <p><strong>CATEGORIES</strong></p>
   
-          {% for c in categoriess %}
+          <label class="container"
+              ><strong><div class="pb-3 h5">{{category.name|title}}</div></strong></label>
+  
+    
+          </div>
+    
+          <div class="box">
+            <p><strong>CATEGORIES</strong></p>
+    
+            {% for c in categoriess %}
+  
+  
+            <label class="container" {% if categoriess.slug == c.slug %}class="selected" {% endif %}
+              ><a class="" href="{{ c.get_absolute_url }}">{{ c.name|title }}</a>
+              <span></span></label
+            >
+            {% endfor %}
+    
+    
+          </div>
+    
+    
+  
+        </div> 
+        
+      </div>
 
-
-          <label class="container" {% if categoriess.slug == c.slug %}class="selected" {% endif %}
-            ><a class="" href="{{ c.get_absolute_url }}">{{ c.name|title }}</a>
-            <span></span></label
-          >
-          {% endfor %}
-  
-  
-        </div>
-  
-  
-
-      </div> 
 
       <div class = "products" id = "container">
         {% if products|length == 0 %}
@@ -156,9 +163,25 @@
     margin-right: 10px;
     color: #555;
   }
+  @media screen and (max-width: 768px) {
+    #filter.show {
+      display: block;
+    }
+  }
 
 </style>
-
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Add event listener for the menu icon
+    var menuIcon = document.getElementById("menu-icon");
+    var filterDiv = document.getElementById("filter");
+  
+    menuIcon.addEventListener("click", function () {
+      // Toggle the 'open' class to display or hide the filter div
+      filterDiv.classList.toggle("show");
+    });
+  });
+</script>
 
 
 

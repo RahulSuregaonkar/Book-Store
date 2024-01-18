@@ -71,18 +71,24 @@ def user_orders(request):
     if request.method == "POST":
         six_months = datetime.now() - timedelta(days=182)
         new_orders = Order.objects.filter(
-            billing_status="True", id=request.POST['selling_prod'], created__gte=six_months)
-        id1 = request.POST['selling_prod']
+            billing_status="True", id=request.POST['selling_user'], created__gte=six_months)
+        id1 = request.POST['selling_user']
         print(id1)
         print(len(new_orders))
         if len(new_orders) == 1:
             pass
         else:
-            return HttpResponse("you cannot sell the book it shad exceeded the time limit of 6 monrths")
+            return HttpResponse("you cannot sell the book it had exceeded the time limit of 6 months")
 
     if request.method == "POST":
+        
+        print(request.POST['selling_prod'])
         quantity = request.POST['quantity']
         real_quantity = request.POST['real_quantity']
+        print(f"quantity {quantity}")
+        print(f"real quantity {real_quantity}")
+        sell_form = NewSellingForm(request.POST, request.FILES)
+        print(sell_form)
 
         if quantity > real_quantity:
             return HttpResponse('You cannot sell more books than ordered')
@@ -90,13 +96,18 @@ def user_orders(request):
     if request.method == "POST" and request.POST['quantity'] == request.POST['real_quantity']:
         title = request.POST['title']
 
-        sell = sell_old_books.objects.filter(
-            selling_prod=request.POST['selling_prod'], selling_user=request.POST['selling_user']).exists()
-        if sell == True:
-            return HttpResponse('hey the product is already in the selling list')
+        sell_item = sell_old_books.objects.filter(selling_prod=request.POST['selling_prod'],selling_user=request.POST[
+            'selling_user']).exists()
+        print(request.POST['selling_prod'])
+        print(sell_item)
+
+        if sell_item == True:
+            return HttpResponse('The product is already in the selling list')
 
         sell_form = NewSellingForm(request.POST, request.FILES)
         regular_1 = (float(request.POST['regular_price']))/2
+        print(sell_form)
+        print(sell_form.errors)
         if sell_form.is_valid():
             selling_form = sell_form.save(commit=False)
             selling_form.title = title
@@ -115,6 +126,7 @@ def user_orders(request):
         title = request.POST['title']
         sell = sell_old_books.objects.filter(selling_prod=request.POST['selling_prod'], selling_user=request.POST[
             'selling_user'], quantity=request.POST['real_quantity'], real_quantity=request.POST['real_quantity']).exists()
+        
         if sell == True:
             return HttpResponse('hey the product is already in the selling object')
 
@@ -124,9 +136,10 @@ def user_orders(request):
             return HttpResponse('you have sold both the products and already')
 
         sell_form = NewSellingForm(request.POST, request.FILES)
+        print(sell_form)
         regular_1 = (float(request.POST['regular_price']))/4
         real_price = (float(request.POST['regular_price']))/2
-
+        
         if sell_form.is_valid():
             selling_form = sell_form.save(commit=False)
             selling_form.user_id = request.user.id
@@ -139,6 +152,7 @@ def user_orders(request):
             messages.success(request,"successfully added the book in the selling list")
         return HttpResponseRedirect(request.META["HTTP_REFERER"])
     else:
+        print(sell_form.errors)
         sell_form = NewSellingForm()
 
     if request.method == "POST" and request.POST['quantity'] == '1' and request.POST['real_quantity'] == '3':
